@@ -1,7 +1,3 @@
-# Azure AI Chatbot Project
-
-This project builds a simple chatbot that can respond to multiple prompts, explain its capabilities, and gracefully handle malformed input. It uses Azure AI Language sentiment analysis when credentials are configured, and falls back to a local heuristic when they are not.
-
 ## Features
 - Responds to greetings and general questions
 - Lists supported capabilities
