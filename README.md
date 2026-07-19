@@ -19,3 +19,6 @@ This project builds a simple chatbot that can respond to multiple prompts, expla
 
 ## Notes
 This project is designed to work with the free tier of Azure AI Services where available, while still being usable without credentials for local testing.
+
+## Source Note
+This chatbot was created as a simple extension of a traditional rule-based chatbot and adapted for the Azure AI Services assignment. The project uses Azure AI Language sentiment analysis as the cloud-based AI capability and includes a local fallback so the bot remains usable during testing or when credentials are unavailable.

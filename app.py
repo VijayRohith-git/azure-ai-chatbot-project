@@ -9,7 +9,6 @@ except ImportError:  # pragma: no cover - optional dependency
     TextAnalyticsClient = None
     AzureKeyCredential = None
 
-
 class Chatbot:
     def __init__(self) -> None:
         self.client = self._build_client()
@@ -75,7 +74,6 @@ class Chatbot:
             return "negative"
         return "neutral"
 
-
 def main() -> None:
     chatbot = Chatbot()
     print("Azure AI Chatbot ready. Type 'quit' to exit.")
@@ -85,7 +83,6 @@ def main() -> None:
             print("Goodbye!")
             break
         print("Bot:", chatbot.get_response(user_input))
-
 
 if __name__ == "__main__":
     main()
